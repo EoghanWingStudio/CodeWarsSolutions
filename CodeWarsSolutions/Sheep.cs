@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace CodeWarsSolutions
 {
-    internal class Sheep
+    public static class Kata
     {
+        public static int CountSheeps(bool[] sheeps)
+        {
+ 
+
+
+            return (int) sheeps.Count(x => x == true);
+        }
     }
 }
