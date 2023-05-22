@@ -10,9 +10,6 @@ namespace CodeWarsSolutions
     {
         public static int CountSheeps(bool[] sheeps)
         {
- 
-
-
             return (int) sheeps.Count(x => x == true);
         }
     }
