@@ -2,6 +2,10 @@
 
 public class Kata
 {
+    public static void Main()
+    {
+
+    }
     public static int DuplicateCount(string str)
     {
         str = str.ToLower();
@@ -11,7 +15,7 @@ public class Kata
 
         foreach(char c in chars)
         {
-            if(str.Any(x => x == c))
+            if (str.Any(x => x == c)) ;
         }
 
         return -1;
