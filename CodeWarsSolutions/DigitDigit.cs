@@ -10,17 +10,16 @@ namespace CodeWarsSolutions
     {
         public static int SquareDigits(int n)
         {
-            char[] digits = n.ToString().ToCharArray();   
-            string numbers = "";    
-
-            foreach (char c in digits)
+            string numberString = n.ToString();
+            List<int> numberList = numberString.Select(c => int.Parse(c.ToString())).ToList();
+            string output = String.Empty;
+            foreach (int c in numberList)
             {
-                int nDigit = Convert.ToInt32(c);
-                +numbers += (c * c).ToString(); 
+                output += (c * c).ToString();
             }
-            int number;
-            int.TryParse(numbers, out number);
-            return number;
+            int numbers = 0;
+            int.TryParse(output, out numbers);
+            return numbers;
         }
     }
 }

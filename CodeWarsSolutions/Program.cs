@@ -4,16 +4,17 @@ public class Kata
 {
     public static void Main()
     {
-
+        Console.WriteLine("Started");
+        Console.ReadLine();
     }
     public static int DuplicateCount(string str)
     {
         str = str.ToLower();
 
-        List<char> chars= new List<char>();
+        List<char> chars = new List<char>();
         chars.AddRange(str);
 
-        foreach(char c in chars)
+        foreach (char c in chars)
         {
             if (str.Any(x => x == c)) ;
         }
