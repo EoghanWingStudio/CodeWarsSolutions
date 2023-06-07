@@ -27,4 +27,3 @@ namespace CodeWarsSolutionsTest
         public string Test(string s) => HighestScoringWord.High(s);
     }
 }
-}
