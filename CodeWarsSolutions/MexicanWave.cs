@@ -23,8 +23,6 @@ namespace CodeWarsSolutions
                 list.Add(mexicanWave);
             }
 
-
-
             return list;
         }
     }
