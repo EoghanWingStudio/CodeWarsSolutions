@@ -13,11 +13,9 @@ namespace CodeWarsSolutions
         {
             string[] list = str.Split(new char[] { '-', '_' });
 
-
-            TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
             for (int i = 1; i < list.Length; i++)
             {
-                list[i] = textInfo.ToTitleCase(list[i]);
+                list[i] = new CultureInfo("en-US", false).TextInfo.ToTitleCase(list[i]);
             }
 
             return string.Concat(list);
