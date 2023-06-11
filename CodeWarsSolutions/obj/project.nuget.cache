@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WUIni82EO+o3LYUPde8Ef7NDx2DAkWvIAp7gPTMJEHgozyONx5CSDvq4zrvZjptddTJXGaEUcGbg96sVetbHjQ==",
+  "dgSpecHash": "S+ouuyo/45ozJVWCaZp0S/ikXDBy0oq+l2hvlgXNXKO5cFNmNixDnYYd3k+bQmGY2E/dQH5mor2R2lEPC+XVgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\eogha\\source\\repos\\CodeWarsSolutions\\CodeWarsSolutions\\CodeWarsSolutions.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\eogha\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
+    "C:\\Users\\eogha\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\eogha\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
+    "C:\\Users\\eogha\\.nuget\\packages\\system.runtime\\4.1.0\\system.runtime.4.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
